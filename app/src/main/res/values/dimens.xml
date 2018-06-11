@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="margin_start">20sp</dimen>
-    <dimen name="text_size">20sp</dimen>
-    <dimen name="margin_bottom">10sp</dimen>
-    <dimen name="margin_top">143dp</dimen>
-    <dimen name="height">120dp</dimen>
-    <dimen name="padding_top">50dp</dimen>
-    <dimen name="text_size_1">24sp</dimen>
-    <dimen name="_193dp">193dp</dimen>
-    <dimen name="_125dp">125dp</dimen>
-    <dimen name="_240dp">240dp</dimen>
-    <dimen name="_262dp">262dp</dimen>
+<resources >
+     <!--Other dimensions in dp -->
+    <dimen name = "margin_start" >20dp</dimen >
+    <dimen name = "margin_bottom" >10dp</dimen >
+    <dimen name = "margin_top" >143dp</dimen >
+    <dimen name = "height" >120dp</dimen >
+    <dimen name = "padding_top" >50dp</dimen >
+    <dimen name = "_193dp" >193dp</dimen >
+    <dimen name = "_125dp" >125dp</dimen >
+    <dimen name = "_240dp" >240dp</dimen >
+    <dimen name = "_262dp" >262dp</dimen >
     <dimen name = "_316dp" >316dp</dimen >
-</resources>
+
+    <!--TextSize in sp -->
+    <dimen name = "text_size" >20sp</dimen >
+    <dimen name = "text_size_1" >24sp</dimen >
+</resources >

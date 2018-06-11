@@ -1,10 +1,10 @@
-<resources>
+<resources xmlns:tools = "http://schemas.android.com/tools" >
     <string name="app_name">HelloAndroid</string>
-    <string name="text1">Udacity</string>
-    <string name="text3">www.udacity.com</string>
-    <string name="text4">2465 Latham St,Mountain View, CA 94043</string>
-    <string name="text2">650-555-5555</string>
-    <string name="text5">Welcome to</string>
+    <string name="business_name">Udacity</string>
+    <string name="business_website">www.udacity.com</string>
+    <string name="business_address">2465 Latham St,Mountain View, CA 94043</string>
+    <string name="business_number" tools:ignore = "TypographyDashes" >650-555-5555</string>
+    <string name="welcome_text">Welcome to</string>
 
 
 </resources>
