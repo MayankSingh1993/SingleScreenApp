@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_193dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/udacity12"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_125dp"
+
+            android:background="@color/colorWhite"
+            android:fontFamily="sans-serif"
+            android:paddingTop="@dimen/padding_top"
+            android:text="@string/text5"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_240dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/udacitygoogle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:text="@string/text1"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:text="@string/text2"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size"
+
+            />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:text="@string/text3"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginStart="@dimen/margin_start"
+            android:text="@string/text4"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+</ScrollView>
+
